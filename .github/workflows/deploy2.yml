@@ -15,4 +15,4 @@ jobs:
               run: "sudo docker pull abatan/book1:newest"
             
             - name: "Run the image as a container"
-              run: "sudo docker run -d -p 80:80 --name logis abatan/book1:newest"
+              run: "sudo docker run -d -p 80:80 --name book1 abatan/book1:newest"
